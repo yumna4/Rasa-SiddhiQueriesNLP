@@ -1,0 +1,188 @@
+
+{
+ "intents":[
+  {
+   "tag": "filter",
+   "number": 512,
+   "binary":[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],
+   "pattern": [
+    "Show the temperatures as same as 60 degrees",
+    "Show the temperatures that are same as 45 degrees",
+    "Show the events where roomNos is equal to 450",
+    "Show the temperatures that are equal to 25 degrees",
+    "Show the temperatures below 100 degrees",
+    "Show the rooms with room numbers above 100",
+    "Filtering all server rooms having temperature greater than 40 degrees",
+    "Show the server rooms which have a temperature that is higher than 20 degrees from the temperature stream",
+    "display the roomNo and temperature of rooms between 99 and 100",
+    "display the roomNo and temperature of rooms between 99 and 100",
+    "let me know if the temperature values are lesser than 40 in server rooms",
+    "for all the events in the past 10 minutes display the temperature which are bigger than 30 of all the rooms along with their room and device ID grouping all of this by the",
+    "Within a 10 minutes window, calculate the Temp per sensor and display the  event details if the count of temperature is less than 45",
+    "give me the temperatures above 30 of room in past 10 minutes",
+    "Show the temperature per room for the last 10 minutes and alert if it's more than 30 degrees",
+    "Give me the temperatures equal to 30 of rooms in the past 10 minutes",
+    "Show the temperatures over 60 degrees",
+    "Show the temperatures higher than 45 degrees",
+    "Show the temperatures below 60 degrees",
+    "Show the temperatures that are equal to 60 degrees",
+    "Show the temperatures below 60 degrees",
+    "Show the temperatures above 60 degrees",
+    "Filtering all server rooms having temperature smaller than 40 degrees",
+    "Show the server rooms which have a temperature lower than 40 from the temperature stream",
+    "display the values of temperature between 30 and 40",
+    "display the values of temperature between 30 and 40",
+    "let me know if the temperature values are lesser than 40 in server rooms",
+    "for all the events in the past 10 minutes display the minimum temperature which are higher than 30 of all the rooms along with their room and device ID grouping all of this by the"
+
+
+
+
+
+
+   ],
+   "filterType":[
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "1",
+    "1",
+    "1",
+    "4",
+    "4",
+    "2",
+    "1",
+    "2",
+    "1",
+    "1",
+    "3",
+
+
+    "1",
+    "1",
+    "2",
+    "3",
+    "2",
+    "1",
+    "2",
+    "2",
+    "4",
+    "4",
+    "2",
+    "1"
+
+
+
+   ]
+  },
+
+
+
+  {
+   "tag": "window",
+   "number": 1,
+   "binary":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+   "pattern": [
+    "show the temp and room  that came in the last 10 minutes",
+    "show the most recent 200 events of temp IDs and room ID",
+    "show temp and room ID in the last 200 events",
+    "Delay all events in a stream by 1 minute",
+    "Let the time out be 1 minute and show me the expired events",
+    "show me the expired events if the window time is one minutes",
+    "show all the details of the expired events of past one minutes",
+    "show all the details of the events which are not in the last one minute",
+    "display all the expired events in the past 1 minute from the temperature stream",
+    "get the average temperature if window time is 10 minutes",
+    "show minimum temperature of 10 minutes window",
+    "show all temperatures in the past 10 minutes",
+    "temperature in the last 4 events",
+    "most recent 10 minutes",
+    "Show the of temperature in the last 10 minutes",
+    "For all the rooms in the past 10 minutes display the number of temperature of all the rooms along with the and device ID",
+    "Show the temperature per room and device ID for the last 10 minutes",
+    "get the temperature in a 10 minutes window",
+    "give me the temperature of rooms in the past 10 minutes",
+    "for all the room in the past 10 minutes display the temperature of all the room along with the room number and device ID and group all of this by the",
+    "for all the events in the past 10 minutes display the lowest temperature which are bigger than 30 of all the rooms along with there and device ID grouping all of this by the",
+    "let me know the details for greatest temp lesser than 45 in a 10 minutes window",
+    "give me the temperatures of room in past 10 minutes",
+    "Show the temperature per room for the last 10 minutes and alert if it's more than 30 degrees",
+    "Give me the temperatures above 30 of room in past 10 minutes",
+    "give me the temperatures above 30 of room in past 10 minutes",
+    "Per office area calculate the temperature over window with a time of 10 minutes",
+    "Per office area calculate the temperature over last 10 minutes",
+    "Per sensor, calculate the maximum temperature over last 10 temperature events each sensor has emitted"
+   ]
+  },
+
+  {
+   "tag": "aggre",
+   "number": 128,
+   "binary":[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],
+   "pattern": [
+    "get all the events and display the minimim temperature along with the and device ID in the most recent 10 hours",
+    "get all the events in the past 10 minutes and display the average temperature along with the and device ID",
+    "For all the rooms display the smallest temperature of all the rooms along with the and device ID i nthe most recent hour",
+    "show the maximum temperature of room 10100 in the last 23 events",
+    "average temperature in the past 19 seconds",
+    "greatest temperature in the past 5 minutes",
+    "get the largest temperature in the last 6 events",
+    "show the average sum of temperature values in the last minute",
+    "count the number of rooms with temperature in the last second",
+    "Show the greatest of temperature in the last minute",
+    "Show the sum of temperature in the most recent 2 events",
+    "Show the highest temperature in the most recent 10 events",
+    "Show the lowest temperature in the last minute",
+    "Show the count of temperature in the past 3 hours",
+    "Show the amount of temperature in the last 10 seconds",
+    "Show the number of temperature in the past 4 hours",
+    "Show the summation of temperature in the last 10 seconds",
+    "for all the events in the past 10 minutes display the average temperature which are higher than 30 of all the rooms along with there and device ID grouping all of this by the",
+    "let me know the details for average temp lower than 45 in a 10 minutes window",
+    "give me the average temperatures above 30 of room in past 10 minutes",
+    "Show the smallest temperature per room for the last 10 minutes and alert if it's more than 30 degrees",
+    "Give me the minimum temperatures of room in past 10 minutes",
+    "Per office area calculate the highest temperature over last 10 minutes",
+    "Per office area calculate the average temperature over last 10 minutes",
+    "Per sensor, calculate the maximum temperature over last 10 temperature events each sensor has emitted",
+    "For every group of device IDs in the temperature stream display the device ID and maximum temperature for every 10 events"
+   ]
+  },
+
+  {
+   "tag": "group",
+   "number": 128,
+   "binary":[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],
+   "pattern": [
+    "Emit the last temperature event per sensor",
+    "give me every temperature of each device",
+    "group the temperature stream by device ID and display all the temperatures of each device ID",
+    "get the temp of each device ID from temperature stream",
+    "for every sensor, calculate the lowest temperature each sensor has emitted in the past 10 minutes",
+    "for every 10 events in each temperature group for a device ID get the, device ID, temperature",
+    "tell the temperature grouped with respect to room",
+    "find the Temp for each sensor and display the event details",
+    "Show the temperature for each room ",
+    "tell the per room and device ID",
+    "Per office area find the temperature",
+    "Per office area show the temperature over last 10 minutes",
+    "Per sensor, the temperature events each sensor has emitted",
+    "give the average temperature per room",
+    "tell the temperature grouped in terms of office area",
+    "display the temperature grouped by office area",
+    "Per office area calculate the highest temperature ",
+    "tell the temperature grouped with respect to room",
+    "let me know the temperature over temperature events each sensor has emitted in a group of sensors",
+    "Grouping with office area show the temperature over last 10 minutes",
+    "for every group of sensors, the temperature events each sensor has emitted",
+    "give the temperature grouped by room",
+    "tell the minimum temperature grouped in terms of office area",
+    "grouping by office area find the temperature ",
+    "calculate the temperature over temperature events each sensor has emitted in a group of sensors"
+   ]
+  }
+
+
+ ]}

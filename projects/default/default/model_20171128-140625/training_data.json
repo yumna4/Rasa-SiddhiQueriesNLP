@@ -1,0 +1,917 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "value": "5",
+            "end": 21,
+            "start": 20,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID as same as 5"
+      },
+      {
+        "entities": [
+          {
+            "value": "5 and 19",
+            "end": 27,
+            "start": 19,
+            "entity": "amount"
+          },
+          {
+            "value": "roomNo",
+            "end": 6,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "roomNo are between 5 and 19"
+      },
+      {
+        "entities": [
+          {
+            "value": "5",
+            "end": 27,
+            "start": 26,
+            "entity": "amount"
+          },
+          {
+            "value": "Temperature",
+            "end": 11,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "Temperature is lower than 5"
+      },
+      {
+        "entities": [
+          {
+            "value": "52",
+            "end": 17,
+            "start": 15,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID above 52"
+      },
+      {
+        "entities": [
+          {
+            "value": "16",
+            "end": 18,
+            "start": 16,
+            "entity": "amount"
+          },
+          {
+            "value": "roomNo",
+            "end": 6,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "roomNo is below 16"
+      },
+      {
+        "entities": [
+          {
+            "value": "97",
+            "end": 34,
+            "start": 32,
+            "entity": "amount"
+          },
+          {
+            "value": "Temperature",
+            "end": 11,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "Temperature which is less than 97"
+      },
+      {
+        "entities": [
+          {
+            "value": "11",
+            "end": 21,
+            "start": 19,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID more than 11"
+      },
+      {
+        "entities": [
+          {
+            "value": "17",
+            "end": 31,
+            "start": 29,
+            "entity": "amount"
+          },
+          {
+            "value": "roomNo",
+            "end": 6,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "roomNo that are greater than 17"
+      },
+      {
+        "entities": [
+          {
+            "value": "6",
+            "end": 26,
+            "start": 25,
+            "entity": "amount"
+          },
+          {
+            "value": "Temperature",
+            "end": 11,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "Temperature smaller than 6"
+      },
+      {
+        "entities": [
+          {
+            "value": "67",
+            "end": 23,
+            "start": 21,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID lesser than 67"
+      },
+      {
+        "entities": [
+          {
+            "value": "0.7",
+            "end": 33,
+            "start": 30,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID that are bigger than 0.7"
+      },
+      {
+        "entities": [
+          {
+            "value": "7",
+            "end": 24,
+            "start": 23,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID is fewer than 7"
+      },
+      {
+        "entities": [
+          {
+            "value": "-2",
+            "end": 22,
+            "start": 21,
+            "entity": "amount"
+          },
+          {
+            "value": "temperatures",
+            "end": 12,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "temperatures higher than 2"
+      },
+      {
+        "entities": [
+          {
+            "value": "0.05",
+            "end": 30,
+            "start": 26,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID that is equal to 0.05"
+      },
+      {
+        "entities": [
+          {
+            "value": "30",
+            "end": 17,
+            "start": 15,
+            "entity": "amount"
+          },
+          {
+            "value": "DeviceID",
+            "end": 8,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "DeviceID below 30"
+      },
+      {
+        "entities": [
+          {
+            "value": "7",
+            "end": 27,
+            "start": 26,
+            "entity": "amount"
+          },
+          {
+            "value": "Temperature",
+            "end": 11,
+            "start": 0,
+            "entity": "filterAttribute"
+          }
+        ],
+        "intent": "filter",
+        "text": "Temperature that is above 7"
+      },
+      {
+        "entities": [
+          {
+            "value": "deviceID",
+            "end": 17,
+            "start": 9,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "group by deviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "Temperature",
+            "end": 23,
+            "start": 12,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "grouping by Temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "roomNo",
+            "end": 17,
+            "start": 11,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "grouped by roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "deviceID",
+            "end": 17,
+            "start": 9,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "for each DeviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "Temperature",
+            "end": 15,
+            "start": 4,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "per Temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "roomNo",
+            "end": 15,
+            "start": 9,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "group by roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "deviceID",
+            "end": 20,
+            "start": 12,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "grouping by DeviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "roomNo",
+            "end": 17,
+            "start": 11,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "grouped by roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "Temperature",
+            "end": 20,
+            "start": 9,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "for each Temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "abacus",
+            "end": 10,
+            "start": 4,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "per abacus"
+      },
+      {
+        "entities": [
+          {
+            "value": "elevator",
+            "end": 12,
+            "start": 4,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "per elevator"
+      },
+      {
+        "entities": [
+          {
+            "value": "calculator",
+            "end": 19,
+            "start": 9,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "for each calculator"
+      },
+      {
+        "entities": [
+          {
+            "value": "stone",
+            "end": 14,
+            "start": 9,
+            "entity": "attribute"
+          }
+        ],
+        "intent": "groupBy",
+        "text": "for each stone"
+      },
+      {
+        "entities": [
+          {
+            "value": "10",
+            "end": 18,
+            "start": 16,
+            "entity": "number"
+          },
+          {
+            "value": "minutes",
+            "end": 26,
+            "start": 19,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "within the last 10 minutes"
+      },
+      {
+        "entities": [
+          {
+            "value": "4",
+            "end": 25,
+            "start": 24,
+            "entity": "number"
+          },
+          {
+            "value": "hours",
+            "end": 31,
+            "start": 26,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "during a window time of 4 hours"
+      },
+      {
+        "entities": [
+          {
+            "value": "5",
+            "end": 21,
+            "start": 20,
+            "entity": "number"
+          },
+          {
+            "value": "seconds",
+            "end": 29,
+            "start": 22,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "withing a window of 5 seconds"
+      },
+      {
+        "entities": [
+          {
+            "value": "8",
+            "end": 16,
+            "start": 15,
+            "entity": "number"
+          }
+        ],
+        "intent": "window",
+        "text": "window size of 8"
+      },
+      {
+        "entities": [
+          {
+            "value": "4",
+            "end": 11,
+            "start": 10,
+            "entity": "number"
+          },
+          {
+            "value": "minutes",
+            "end": 19,
+            "start": 12,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "window of 4 minutes"
+      },
+      {
+        "entities": [
+          {
+            "value": "4",
+            "end": 13,
+            "start": 12,
+            "entity": "number"
+          },
+          {
+            "value": "events",
+            "end": 20,
+            "start": 14,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "in the past 4 events"
+      },
+      {
+        "entities": [
+          {
+            "value": "hour",
+            "end": 20,
+            "start": 16,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "during the last hour"
+      },
+      {
+        "entities": [
+          {
+            "value": "12",
+            "end": 18,
+            "start": 16,
+            "entity": "number"
+          },
+          {
+            "value": "events",
+            "end": 25,
+            "start": 19,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "within the past 12 events"
+      },
+      {
+        "entities": [
+          {
+            "value": "minute",
+            "end": 22,
+            "start": 16,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "within the last minute"
+      },
+      {
+        "entities": [
+          {
+            "value": "4",
+            "end": 17,
+            "start": 16,
+            "entity": "number"
+          },
+          {
+            "value": "seconds",
+            "end": 25,
+            "start": 18,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "within the last 17 seconds"
+      },
+      {
+        "entities": [
+          {
+            "value": "3",
+            "end": 24,
+            "start": 23,
+            "entity": "number"
+          },
+          {
+            "value": "minutes",
+            "end": 32,
+            "start": 25,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "during the most recent 3 minutes"
+      },
+      {
+        "entities": [
+          {
+            "value": "6",
+            "end": 13,
+            "start": 12,
+            "entity": "number"
+          },
+          {
+            "value": "seconds",
+            "end": 21,
+            "start": 14,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "in the past 6 seconds"
+      },
+      {
+        "entities": [
+          {
+            "value": "7",
+            "end": 17,
+            "start": 16,
+            "entity": "number"
+          },
+          {
+            "value": "hours",
+            "end": 23,
+            "start": 18,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "during the last 7 hours"
+      },
+      {
+        "entities": [
+          {
+            "value": "4",
+            "end": 20,
+            "start": 19,
+            "entity": "number"
+          },
+          {
+            "value": "events",
+            "end": 27,
+            "start": 21,
+            "entity": "unit"
+          }
+        ],
+        "intent": "window",
+        "text": "in the most recent 4 events"
+      },
+      {
+        "entities": [
+          {
+            "value": "minutes",
+            "end": 26,
+            "start": 19,
+            "entity": "unit"
+          },
+          {
+            "value": "10",
+            "end": 18,
+            "start": 16,
+            "entity": "number"
+          }
+        ],
+        "intent": "window",
+        "text": "during the past 10 minutes"
+      },
+      {
+        "entities": [
+          {
+            "value": "greatest",
+            "end": 8,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "greatest roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "smallest",
+            "end": 8,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "smallest temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "highest",
+            "end": 7,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "highest deviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "lowest",
+            "end": 6,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "lowest roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "largest",
+            "end": 7,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "largest temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "average",
+            "end": 7,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "average deviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "count",
+            "end": 5,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "count of roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "count",
+            "end": 3,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "sum of temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "summation",
+            "end": 9,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "summation of deviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "total",
+            "end": 5,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "total number of roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "minimum",
+            "end": 7,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "minimum temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "maximum",
+            "end": 7,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "maximum deviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "normal",
+            "end": 6,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "normal of roomNo"
+      },
+      {
+        "entities": [
+          {
+            "value": "biggest",
+            "end": 7,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "biggest temperature"
+      },
+      {
+        "entities": [
+          {
+            "value": "least",
+            "end": 5,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "least deviceID"
+      },
+      {
+        "entities": [
+          {
+            "value": "most",
+            "end": 4,
+            "start": 0,
+            "entity": "aggregator"
+          }
+        ],
+        "intent": "aggregate",
+        "text": "most roomNo"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      },
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chines",
+          "Chinese",
+          "chines"
+        ]
+      }
+    ],
+    "regex_features": [
+      {
+        "pattern": "[0-9]{5}",
+        "name": "zipcode"
+      }
+    ]
+  }
+}

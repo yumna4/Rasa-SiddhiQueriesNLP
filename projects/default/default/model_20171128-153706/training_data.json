@@ -1,0 +1,173 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "temperatures",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "Show the temperatures as same as 60 degrees"
+      },
+      {
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "serverRooms",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "Filtering all serverRooms having temperature greater than 40 degrees"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "5",
+            "entity": "roomNo and temperature"
+          }
+        ],
+        "intent": "filter",
+        "text": "display the roomNo and temperature of rooms between 99 and 100"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "roomNo",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "display the roomNo greater than 4"
+      },
+      {
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "let me know if the temperature values are lesser than 40 in server rooms"
+      },
+      {
+        "entities": [
+          {
+            "start": 42,
+            "end": 46,
+            "value": "Temp",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "Within a 10 minutes window, calculate the Temp per sensor"
+      },
+      {
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "temperatures",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "give me the temperatures above 30"
+      },
+      {
+        "entities": [
+          {
+            "start": 30,
+            "end": 41,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "Per office area calculate the temperature over last 10 minutes"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "get the temperature in a 10 minutes window"
+      },
+      {
+        "entities": [
+          {
+            "start": 8,
+            "end": 32,
+            "value": "temperature and deviceID",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "get the temperature and deviceID in a 10 minutes window"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "tell the temperature grouped in terms of office area"
+      },
+      {
+        "entities": [
+          {
+            "start": 9,
+            "end": 31,
+            "value": "temperature and roomNo",
+            "entity": "display"
+          }
+        ],
+        "intent": "filter",
+        "text": "tell the temperature and roomNo grouped in terms of office area"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ],
+        "value": "vegetarian"
+      },
+      {
+        "synonyms": [
+          "Chinese",
+          "chines",
+          "Chines"
+        ],
+        "value": "chinese"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ]
+  }
+}

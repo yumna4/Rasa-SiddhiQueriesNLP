@@ -1,0 +1,166 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": ["Chinese", "Chines", "chines"]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": ["veggie", "vegg"]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "Show the temperatures as same as 60 degrees",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":9,
+            "end": 21,
+            "value": "temperatures",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "Filtering all serverRooms having temperature greater than 40 degrees",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":14,
+            "end": 25,
+            "value": "serverRooms",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "display the roomNo and temperature of rooms between 99 and 100",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":12,
+            "end": 34,
+            "value": "5",
+            "entity": "roomNo and temperature"
+          }
+        ]
+      },
+      {
+        "text": "display the roomNo greater than 4",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":12,
+            "end":18 ,
+            "value": "roomNo",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "let me know if the temperature values are lesser than 40 in server rooms",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":19,
+            "end":30,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "Within a 10 minutes window, calculate the Temp per sensor",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":42,
+            "end": 46,
+            "value": "Temp",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "give me the temperatures above 30",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":12,
+            "end": 24,
+            "value": "temperatures",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "Per office area calculate the temperature over last 10 minutes",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":30,
+            "end": 41,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "get the temperature in a 10 minutes window",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":8,
+            "end": 19,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "get the temperature and deviceID in a 10 minutes window",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":8,
+            "end": 32,
+            "value": "temperature and deviceID",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "tell the temperature grouped in terms of office area",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":9,
+            "end": 20,
+            "value": "temperature",
+            "entity": "display"
+          }
+        ]
+      },
+      {
+        "text": "tell the temperature and roomNo grouped in terms of office area",
+        "intent": "filter",
+        "entities": [
+          {
+            "start":9,
+            "end": 31,
+            "value": "temperature and roomNo",
+            "entity": "display"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "common_examples": [
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperatures",
+            "start": 9,
+            "entity": "display",
+            "end": 21
+          }
+        ],
+        "text": "Show the temperatures as same as 60 degrees"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "serverRooms",
+            "start": 14,
+            "entity": "display",
+            "end": 25
+          }
+        ],
+        "text": "Filtering all serverRooms having temperature greater than 40 degrees"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "5",
+            "start": 12,
+            "entity": "roomNo and temperature",
+            "end": 34
+          }
+        ],
+        "text": "display the roomNo and temperature of rooms between 99 and 100"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "roomNo",
+            "start": 12,
+            "entity": "display",
+            "end": 18
+          }
+        ],
+        "text": "display the roomNo greater than 4"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperature",
+            "start": 19,
+            "entity": "display",
+            "end": 30
+          }
+        ],
+        "text": "let me know if the temperature values are lesser than 40 in server rooms"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "Temp",
+            "start": 42,
+            "entity": "display",
+            "end": 46
+          }
+        ],
+        "text": "Within a 10 minutes window, calculate the Temp per sensor"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperatures",
+            "start": 12,
+            "entity": "display",
+            "end": 24
+          }
+        ],
+        "text": "give me the temperatures above 30"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperature",
+            "start": 30,
+            "entity": "display",
+            "end": 41
+          }
+        ],
+        "text": "Per office area calculate the temperature over last 10 minutes"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperature",
+            "start": 8,
+            "entity": "display",
+            "end": 19
+          }
+        ],
+        "text": "get the temperature in a 10 minutes window"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperature and deviceID",
+            "start": 8,
+            "entity": "display",
+            "end": 32
+          }
+        ],
+        "text": "get the temperature and deviceID in a 10 minutes window"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperature",
+            "start": 9,
+            "entity": "display",
+            "end": 20
+          }
+        ],
+        "text": "tell the temperature grouped in terms of office area"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "value": "temperature and roomNo",
+            "start": 9,
+            "entity": "display",
+            "end": 31
+          }
+        ],
+        "text": "tell the temperature and roomNo grouped in terms of office area"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      },
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chines",
+          "Chinese",
+          "chines"
+        ]
+      }
+    ]
+  }
+}

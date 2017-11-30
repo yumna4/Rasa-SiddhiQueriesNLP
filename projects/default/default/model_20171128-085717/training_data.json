@@ -1,0 +1,173 @@
+{
+  "rasa_nlu_data": {
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "chines",
+          "Chinese",
+          "Chines"
+        ],
+        "value": "chinese"
+      },
+      {
+        "synonyms": [
+          "vegg",
+          "veggie"
+        ],
+        "value": "vegetarian"
+      }
+    ],
+    "regex_features": [
+      {
+        "pattern": "[0-9]{5}",
+        "name": "zipcode"
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "Show the temperatures as same as 60 degrees",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "display",
+            "value": "temperatures",
+            "end": 21
+          }
+        ]
+      },
+      {
+        "text": "Filtering all serverRooms having temperature greater than 40 degrees",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "display",
+            "value": "serverRooms",
+            "end": 25
+          }
+        ]
+      },
+      {
+        "text": "display the roomNo and temperature of rooms between 99 and 100",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "roomNo and temperature",
+            "value": "5",
+            "end": 34
+          }
+        ]
+      },
+      {
+        "text": "display the roomNo greater than 4",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "display",
+            "value": "roomNo",
+            "end": 18
+          }
+        ]
+      },
+      {
+        "text": "let me know if the temperature values are lesser than 40 in server rooms",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "display",
+            "value": "temperature",
+            "end": 30
+          }
+        ]
+      },
+      {
+        "text": "Within a 10 minutes window, calculate the Temp per sensor",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 42,
+            "entity": "display",
+            "value": "Temp",
+            "end": 46
+          }
+        ]
+      },
+      {
+        "text": "give me the temperatures above 30",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "display",
+            "value": "temperatures",
+            "end": 24
+          }
+        ]
+      },
+      {
+        "text": "Per office area calculate the temperature over last 10 minutes",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "display",
+            "value": "temperature",
+            "end": 41
+          }
+        ]
+      },
+      {
+        "text": "get the temperature in a 10 minutes window",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "display",
+            "value": "temperature",
+            "end": 19
+          }
+        ]
+      },
+      {
+        "text": "get the temperature and deviceID in a 10 minutes window",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "display",
+            "value": "temperature and deviceID",
+            "end": 32
+          }
+        ]
+      },
+      {
+        "text": "tell the temperature grouped in terms of office area",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "display",
+            "value": "temperature",
+            "end": 20
+          }
+        ]
+      },
+      {
+        "text": "tell the temperature and roomNo grouped in terms of office area",
+        "intent": "filter",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "display",
+            "value": "temperature and roomNo",
+            "end": 31
+          }
+        ]
+      }
+    ]
+  }
+}

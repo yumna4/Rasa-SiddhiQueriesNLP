@@ -1,0 +1,173 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Show the temperatures as same as 60 degrees",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "display",
+            "start": 9,
+            "value": "temperatures"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "Filtering all serverRooms having temperature greater than 40 degrees",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "display",
+            "start": 14,
+            "value": "serverRooms"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "display the roomNo and temperature of rooms between 99 and 100",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "roomNo and temperature",
+            "start": 12,
+            "value": "5"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "display the roomNo greater than 4",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "display",
+            "start": 12,
+            "value": "roomNo"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "let me know if the temperature values are lesser than 40 in server rooms",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "display",
+            "start": 19,
+            "value": "temperature"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "Within a 10 minutes window, calculate the Temp per sensor",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "display",
+            "start": 42,
+            "value": "Temp"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "give me the temperatures above 30",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "display",
+            "start": 12,
+            "value": "temperatures"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "Per office area calculate the temperature over last 10 minutes",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "display",
+            "start": 30,
+            "value": "temperature"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "get the temperature in a 10 minutes window",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "display",
+            "start": 8,
+            "value": "temperature"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "get the temperature and deviceID in a 10 minutes window",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "display",
+            "start": 8,
+            "value": "temperature and deviceID"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "tell the temperature grouped in terms of office area",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "display",
+            "start": 9,
+            "value": "temperature"
+          }
+        ],
+        "intent": "filter"
+      },
+      {
+        "text": "tell the temperature and roomNo grouped in terms of office area",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "display",
+            "start": 9,
+            "value": "temperature and roomNo"
+          }
+        ],
+        "intent": "filter"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "chines",
+          "Chines",
+          "Chinese"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "vegg",
+          "veggie"
+        ]
+      }
+    ],
+    "regex_features": [
+      {
+        "pattern": "[0-9]{5}",
+        "name": "zipcode"
+      }
+    ]
+  }
+}

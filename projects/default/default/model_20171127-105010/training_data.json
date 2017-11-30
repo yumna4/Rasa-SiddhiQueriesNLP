@@ -1,0 +1,173 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "common_examples": [
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 21,
+            "value": "temperatures",
+            "start": 9
+          }
+        ],
+        "text": "Show the temperatures as same as 60 degrees"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 25,
+            "value": "serverRooms",
+            "start": 14
+          }
+        ],
+        "text": "Filtering all serverRooms having temperature greater than 40 degrees"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "roomNo and temperature",
+            "end": 34,
+            "value": "5",
+            "start": 12
+          }
+        ],
+        "text": "display the roomNo and temperature of rooms between 99 and 100"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 18,
+            "value": "roomNo",
+            "start": 12
+          }
+        ],
+        "text": "display the roomNo greater than 4"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 30,
+            "value": "temperature",
+            "start": 19
+          }
+        ],
+        "text": "let me know if the temperature values are lesser than 40 in server rooms"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 46,
+            "value": "Temp",
+            "start": 42
+          }
+        ],
+        "text": "Within a 10 minutes window, calculate the Temp per sensor"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 24,
+            "value": "temperatures",
+            "start": 12
+          }
+        ],
+        "text": "give me the temperatures above 30"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 41,
+            "value": "temperature",
+            "start": 30
+          }
+        ],
+        "text": "Per office area calculate the temperature over last 10 minutes"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 19,
+            "value": "temperature",
+            "start": 8
+          }
+        ],
+        "text": "get the temperature in a 10 minutes window"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 32,
+            "value": "temperature and deviceID",
+            "start": 8
+          }
+        ],
+        "text": "get the temperature and deviceID in a 10 minutes window"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 20,
+            "value": "temperature",
+            "start": 9
+          }
+        ],
+        "text": "tell the temperature grouped in terms of office area"
+      },
+      {
+        "intent": "filter",
+        "entities": [
+          {
+            "entity": "display",
+            "end": 31,
+            "value": "temperature and roomNo",
+            "start": 9
+          }
+        ],
+        "text": "tell the temperature and roomNo grouped in terms of office area"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "chines",
+          "Chinese",
+          "Chines"
+        ],
+        "value": "chinese"
+      },
+      {
+        "synonyms": [
+          "vegg",
+          "veggie"
+        ],
+        "value": "vegetarian"
+      }
+    ]
+  }
+}
